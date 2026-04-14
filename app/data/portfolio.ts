@@ -12,6 +12,11 @@ export const PORTFOLIO = {
   avatar: "https://ui-avatars.com/api/?name=Earnest+Achayo&size=400&background=0d9488&color=fff&bold=true",
   // ───────────────────────────────────────────────────────────────────────────
 
+  // ─── UPDATE YOUR CV GOOGLE DRIVE LINK HERE ─────────────────────────────────
+  // Converts the /view link to a direct download link automatically.
+  cvDriveId: "1pqMP4CdC_ClKl9JhIqAXoa090_LDAgZ-",
+  // ───────────────────────────────────────────────────────────────────────────
+
   summary:
     "Results-driven Data Analyst with 4+ years experience in data management, analysis, visualization, and automated data pipelines across healthcare and technology sectors. Skilled in SQL, Python, Power BI, and statistical analysis, delivering actionable insights that improve operational efficiency and decision-making.",
 
