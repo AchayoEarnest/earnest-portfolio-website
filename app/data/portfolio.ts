@@ -9,12 +9,14 @@ export const PORTFOLIO = {
   linkedin: "https://linkedin.com/in/earnest-achayo",
 
   // ─── UPDATE YOUR AVATAR URL HERE ───────────────────────────────────────────
-  avatar: "https://ui-avatars.com/api/?name=Earnest+Achayo&size=400&background=0d9488&color=fff&bold=true",
+  avatar:
+    "https://ui-avatars.com/api/?name=Earnest+Achayo&size=400&background=0d9488&color=fff&bold=true",
   // ───────────────────────────────────────────────────────────────────────────
 
   // ─── UPDATE YOUR CV GOOGLE DRIVE LINK HERE ─────────────────────────────────
   // Converts the /view link to a direct download link automatically.
-  cvDriveId: "1pqMP4CdC_ClKl9JhIqAXoa090_LDAgZ-",
+  cvDriveId:
+    "https://drive.google.com/file/d/1pqMP4CdC_ClKl9JhIqAXoa090_LDAgZ-/view",
   // ───────────────────────────────────────────────────────────────────────────
 
   summary:
@@ -31,7 +33,14 @@ export const PORTFOLIO = {
 
   skills: {
     programming: ["Python", "SQL", "JavaScript", "R (Basic)"],
-    dataTools: ["Pandas", "NumPy", "SciPy", "Excel", "Google Sheets", "Google App Scripts"],
+    dataTools: [
+      "Pandas",
+      "NumPy",
+      "SciPy",
+      "Excel",
+      "Google Sheets",
+      "Google App Scripts",
+    ],
     visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn", "Plotly"],
     databases: ["MySQL", "PostgreSQL", "SQLite"],
     systems: ["DHIS2", "KHIS", "EMR Systems", "C-PAD"],
@@ -119,15 +128,39 @@ export const PORTFOLIO = {
 
   certifications: [
     { name: "Data Analytics Certificate", issuer: "ALX Africa", year: "2024" },
-    { name: "Professional Foundations Certificate", issuer: "ALX Africa", year: "2024" },
-    { name: "Software Development Certificate", issuer: "Moringa School", year: "2022" },
-    { name: "Data Science Specialization", issuer: "ALX Africa", year: "Ongoing 2024" },
+    {
+      name: "Professional Foundations Certificate",
+      issuer: "ALX Africa",
+      year: "2024",
+    },
+    {
+      name: "Software Development Certificate",
+      issuer: "Moringa School",
+      year: "2022",
+    },
+    {
+      name: "Data Science Specialization",
+      issuer: "ALX Africa",
+      year: "Ongoing 2024",
+    },
   ],
 
   education: [
-    { degree: "Data Science Course", school: "ALX Africa", year: "2024 – 2025" },
-    { degree: "Certificate in Software Development", school: "Moringa School", year: "2022" },
-    { degree: "Diploma in Information Technology", school: "Foundation Institute of Africa", year: "2011" },
+    {
+      degree: "Data Science Course",
+      school: "ALX Africa",
+      year: "2024 – 2025",
+    },
+    {
+      degree: "Certificate in Software Development",
+      school: "Moringa School",
+      year: "2022",
+    },
+    {
+      degree: "Diploma in Information Technology",
+      school: "Foundation Institute of Africa",
+      year: "2011",
+    },
     { degree: "KCSE", school: "Simenya Secondary School", year: "2010" },
   ],
 };

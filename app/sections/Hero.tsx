@@ -15,7 +15,10 @@ export default function Hero() {
     let timeout: ReturnType<typeof setTimeout>;
 
     if (!deleting && displayed.length < current.length) {
-      timeout = setTimeout(() => setDisplayed(current.slice(0, displayed.length + 1)), 80);
+      timeout = setTimeout(
+        () => setDisplayed(current.slice(0, displayed.length + 1)),
+        80,
+      );
     } else if (!deleting && displayed.length === current.length) {
       timeout = setTimeout(() => setDeleting(true), 1800);
     } else if (deleting && displayed.length > 0) {
@@ -41,7 +44,8 @@ export default function Hero() {
         <div
           className="absolute inset-0 opacity-[0.04]"
           style={{
-            backgroundImage: "radial-gradient(circle, #2dd4bf 1px, transparent 1px)",
+            backgroundImage:
+              "radial-gradient(circle, #2dd4bf 1px, transparent 1px)",
             backgroundSize: "40px 40px",
           }}
         />
@@ -81,13 +85,23 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href={`https://drive.google.com/uc?export=download&id=${PORTFOLIO.cvDriveId}`}
+              href="https://drive.google.com/file/d/1pqMP4CdC_ClKl9JhIqAXoa090_LDAgZ-/view"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-teal-600/60 text-teal-300 hover:bg-teal-600 hover:text-white font-medium transition-all duration-200 hover:-translate-y-0.5"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
               </svg>
               Download CV
             </a>
@@ -127,7 +141,10 @@ export default function Hero() {
         </div>
 
         {/* Profile image card */}
-        <div className="flex justify-center lg:justify-end animate-fade-in" style={{ animationDelay: "0.3s" }}>
+        <div
+          className="flex justify-center lg:justify-end animate-fade-in"
+          style={{ animationDelay: "0.3s" }}
+        >
           <div className="relative">
             {/* Glowing ring */}
             <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-teal-500 to-indigo-500 blur-md opacity-50 animate-pulse-slow" />
@@ -157,8 +174,18 @@ export default function Hero() {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-slate-600">
         <span className="text-xs tracking-widest uppercase">Scroll</span>
-        <svg className="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        <svg
+          className="w-4 h-4 animate-bounce"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
         </svg>
       </div>
     </section>
