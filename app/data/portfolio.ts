@@ -68,7 +68,7 @@ export const PORTFOLIO = {
       ],
     },
     {
-      position: "Data Analyst & Software Developer",
+      position: "Software Developer",
       company: "Moringa School",
       location: "Kenya",
       period: "March 2022 – November 2022",
