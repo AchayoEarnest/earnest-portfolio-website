@@ -26,7 +26,7 @@ export const PORTFOLIO = {
 
   stats: [
     { label: "Years Experience", value: "4+" },
-    { label: "Projects Completed", value: "20+" },
+    { label: "Projects Completed", value: "120+" },
     { label: "Data Accuracy Improved", value: "96%" },
     { label: "Reporting Time Saved", value: "60%" },
   ],
@@ -41,10 +41,24 @@ export const PORTFOLIO = {
       "Google Sheets",
       "Google App Scripts",
     ],
-    visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn", "Plotly"],
+    visualization: ["Power BI", "Matplotlib", "Seaborn", "Plotly"],
     databases: ["MySQL", "PostgreSQL", "SQLite"],
-    systems: ["DHIS2", "KHIS", "EMR Systems", "C-PAD"],
-    tools: ["Git/GitHub", "Jupyter Notebook", "VS Code", "Agile workflows"],
+    systems: [
+      "DHIS2",
+      "KHIS",
+      "Taifa Care",
+      "EMR Systems",
+      "C-PAD",
+      "DREAMS Heathstrat",
+    ],
+    tools: [
+      "Git/GitHub",
+      "Jupyter Notebook",
+      "VS Code",
+      "Agile workflows",
+      "Figma",
+      "Canvas",
+    ],
   },
 
   softSkills: [
@@ -123,6 +137,13 @@ export const PORTFOLIO = {
       tools: ["Python", "Statistical Analysis", "Forecasting"],
       github: "https://github.com/AchayoEarnest",
       color: "#ec4899",
+    },
+    {
+      title: "Learnflow LMS",
+      description: "Complete Learning management System",
+      tools: ["Erlang", "NextJs", "Docker"],
+      github: "https://github.com/AchayoEarnest",
+      color: "#0d9488",
     },
   ],
 
