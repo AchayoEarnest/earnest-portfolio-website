@@ -10,7 +10,7 @@ export const PORTFOLIO = {
 
   // ─── UPDATE YOUR AVATAR URL HERE ───────────────────────────────────────────
   avatar:
-    "https://ui-avatars.com/api/?name=Earnest+Achayo&size=400&background=0d9488&color=fff&bold=true",
+    "https://images.pexels.com/photos/37094968/pexels-photo-37094968.jpeg",
   // ───────────────────────────────────────────────────────────────────────────
 
   // ─── UPDATE YOUR CV GOOGLE DRIVE LINK HERE ─────────────────────────────────
