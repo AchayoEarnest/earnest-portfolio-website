@@ -142,7 +142,7 @@ export const PORTFOLIO = {
       title: "Learnflow LMS",
       description: "Complete Learning management System",
       tools: ["Erlang", "NextJs", "Docker"],
-      github: "https://github.com/AchayoEarnest",
+      github: "https://github.com/AchayoEarnest/learnflow.git",
       color: "#0d9488",
     },
   ],
