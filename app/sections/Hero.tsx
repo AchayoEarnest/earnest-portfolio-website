@@ -85,7 +85,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="https://drive.google.com/file/d/1pqMP4CdC_ClKl9JhIqAXoa090_LDAgZ-/view"
+              href="https://drive.google.com/file/d/1aG-1xAkj-suNycJXrmCBoUBiqw-r9Hx9/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-teal-600/60 text-teal-300 hover:bg-teal-600 hover:text-white font-medium transition-all duration-200 hover:-translate-y-0.5"

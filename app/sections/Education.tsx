@@ -112,7 +112,7 @@ export default function Education() {
               </p>
             </div>
             <a
-              href={`https://drive.google.com/file/d/1pqMP4CdC_ClKl9JhIqAXoa090_LDAgZ-/view`}
+              href={`https://drive.google.com/file/d/1aG-1xAkj-suNycJXrmCBoUBiqw-r9Hx9/view?usp=drive_link`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-teal-600 hover:bg-teal-500 text-white font-medium transition-all duration-200 shadow-lg shadow-teal-900/40 hover:shadow-teal-700/30 hover:-translate-y-0.5 whitespace-nowrap shrink-0"
